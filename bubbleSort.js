@@ -15,8 +15,7 @@ function bubbleSort(array) {
         // With each element, we check if the element at i (the outer loop iteration)
         // is greater than the current element of the inner loop iteration (j);
         // If it is, we want to move that element to right and towards the end of the array.
-        //  Therefore it is "bubbling up"
-        // the array.
+        // Therefore it is "bubbling" up the array.
         for (var j = i + 1; j < arrayLength; j++) {
             if (array[i] > array[j]) {
                 var temp = array[i];
